@@ -25,7 +25,7 @@
             </property>
             <property key="dateAttr" type="attribute" required="false" dataSource="datasource">
               <caption>Date</caption>
-              <description></description>
+              <description>Used to mark the dates that have Inspections on them</description>
               <attributeTypes>
                 <attributeType name="DateTime" />
               </attributeTypes>
