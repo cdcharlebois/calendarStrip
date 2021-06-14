@@ -27,7 +27,5 @@
   "devDependencies": {
     "@mendix/pluggable-widgets-tools": "^9.0.0"
   },
-  "dependencies": {
-    "react-native-calendar-strip": "^2.2.2"
-  }
+  "dependencies": {}
 }
