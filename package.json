@@ -1,0 +1,33 @@
+{
+  "name": "calendarstrip",
+  "widgetName": "CalendarStrip",
+  "version": "1.0.0",
+  "description": "A calendar strip date picker for native",
+  "copyright": "2020 Mendix Technology BV",
+  "author": "Conner Charlebois",
+  "engines": {
+    "node": ">=12"
+  },
+  "config": {
+    "projectPath": "/Users/conner.charlebois/Documents/Mendix/Projects/FieldServices-MxW-after"
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:native",
+    "build": "pluggable-widgets-tools build:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:native"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Conner Charlebois/calendarstrip/issues"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.0.0"
+  },
+  "dependencies": {
+    "react-native-calendar-strip": "^2.2.2"
+  }
+}

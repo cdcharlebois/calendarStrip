@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.calendarstrip.CalendarStrip" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Calendar Strip</name>
+    <description>A calendar strip date picker for native</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="attribute" type="attribute" required="true">
+              <caption>Attribute</caption>
+              <description></description>
+              <attributeTypes>
+                <attributeType name="DateTime" />
+              </attributeTypes>
+            </property>
+            <property key="action" type="action">
+              <caption>On Change</caption>
+              <description>Action to be triggered when a new date is selected</description>
+            </property>
+            <property key="datasource" type="datasource" required="true" isList="true">
+              <caption>Inspections</caption>
+              <description></description>
+            </property>
+            <property key="dateAttr" type="attribute" required="false" dataSource="datasource">
+              <caption>Date</caption>
+              <description></description>
+              <attributeTypes>
+                <attributeType name="DateTime" />
+              </attributeTypes>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
