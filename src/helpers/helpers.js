@@ -24,8 +24,19 @@ const calStyle = { height: 100, paddingTop: 10, paddingBottom: 10, flex: 1 }
 
 const daySelectionAnimation = { type: 'border', duration: 200, borderWidth: 1, borderHighlightColor: 'white' }
 
+const defaultProps = {
+    scrollable: true,
+    style: calStyle,
+    daySelectionAnimation: daySelectionAnimation,
+    calendarColor: '#36b9cc',
+    iconLeft: {uri: require("../assets/left-arrow.png")},
+    iconRight: {uri: require("../assets/right-arrow.png")},
+    iconContainer: {flex: 0.1}
+}
+
 module.exports = {
     shouldDateShowMark,
     calStyle,
     daySelectionAnimation,
+    defaultProps
 }
