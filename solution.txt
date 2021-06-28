@@ -1,0 +1,12 @@
+<Cal
+    scrollable
+    style={calStyle}
+    selectedDate={attribute.value}
+    onDateSelected={updateAttribute}
+    daySelectionAnimation={daySelectionAnimation}
+    calendarColor={'#36b9cc'}
+    markedDates={markedDates}
+    iconLeft={{ uri: require("./assets/left-arrow.png") }}
+    iconRight={{ uri: require("./assets/right-arrow.png") }}
+    iconContainer={{ flex: 0.1 }}
+/>
